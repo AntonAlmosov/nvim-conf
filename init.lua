@@ -692,7 +692,7 @@ require('lazy').setup({
         'markdownlint',
         'yamlls',
         'taplo',
-        'tsserver',
+        'ts_ls',
         'prettier',
         'eslint',
         'lua_ls',
