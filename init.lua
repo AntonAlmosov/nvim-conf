@@ -171,6 +171,12 @@ vim.opt.linebreak = true
 
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
+-- Centering screen after jumping in any direction
+vim.keymap.set('n', '<C-d>', '<C-d>zz')
+vim.keymap.set('n', '<C-u>', '<C-u>zz')
+vim.keymap.set('n', '<C-f>', '<C-f>zz')
+vim.keymap.set('n', '<C-b>', '<C-b>zz')
+
 -- Diagnostic keymaps
 
 vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, { desc = 'Go to previous [D]iagnostic message' })

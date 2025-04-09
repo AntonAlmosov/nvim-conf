@@ -4,6 +4,7 @@
 return {
   'windwp/nvim-autopairs',
   event = 'InsertEnter',
+  disable = true,
   -- Optional dependency
   dependencies = { 'hrsh7th/nvim-cmp' },
   config = function()
